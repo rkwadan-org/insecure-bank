@@ -34,6 +34,7 @@ jobs:
         --aqua-secret "${{ secrets.AQUA_SECRET }}" \
         --cspm-url "https://api.cloudsploit.com" \
         --artifact-path "my-image-name:${{ env.tag-version }}" 
+
         # The docker image name:tag of the newly built image
         # --artifact-path "my-image-name:${{ env.tag-version }}" 
         # OR the path to the root folder of your project. I.e my-repo/my-app 
