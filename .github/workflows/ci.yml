@@ -1,5 +1,9 @@
 name: ci
 on: [push, pull_request]
+
+env:
+  tag-version: 1.0
+  
 jobs:
   run:
     name: Java ${{ matrix.java }}
