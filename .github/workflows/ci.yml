@@ -28,7 +28,10 @@ jobs:
         fi
         sh install.sh
         rm install.sh install.sh.checksum
-        billy generate \
+        
+        #billy generate \
+
+        billy health \
         --access-token "${{ secrets.GITHUB_TOKEN }}" \
         --aqua-key "${{ secrets.AQUA_KEY }}" \
         --aqua-secret "${{ secrets.AQUA_SECRET }}" \
