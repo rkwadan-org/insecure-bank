@@ -1,4 +1,4 @@
-- name: Manifest Generation
+name: Manifest Generation
   run: |
     export BILLY_SERVER=https://prod-aqua-billy.codesec.aquasec.com
     curl -sLo install.sh download.codesec.aquasec.com/billy/install.sh
